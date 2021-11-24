@@ -1,0 +1,23 @@
+{
+  "name": "xonqabot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "form-data": "^4.0.0",
+    "mongoose": "^6.0.13",
+    "node-fetch": "^2.6.1",
+    "node-telegram-bot-api": "^0.54.0",
+    "nodemon": "^2.0.15",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node ./src/app.js",
+    "dev": "nodemon ./src/app.js"
+  },
+  "author": "Xudoyor Quronboyev",
+  "license": "ISC"
+}
